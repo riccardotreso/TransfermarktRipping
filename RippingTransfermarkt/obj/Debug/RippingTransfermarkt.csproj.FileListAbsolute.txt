@@ -1,0 +1,9 @@
+c:\progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\RippingTransfermarkt.exe.config
+c:\progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\RippingTransfermarkt.exe
+c:\progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\RippingTransfermarkt.pdb
+c:\progetti\RippingTransfermarkt\RippingTransfermarkt\obj\Debug\RippingTransfermarkt.csprojResolveAssemblyReference.cache
+c:\progetti\RippingTransfermarkt\RippingTransfermarkt\obj\Debug\RippingTransfermarkt.exe
+c:\progetti\RippingTransfermarkt\RippingTransfermarkt\obj\Debug\RippingTransfermarkt.pdb
+c:\progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\HtmlAgilityPack.dll
+c:\progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\HtmlAgilityPack.pdb
+c:\progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\HtmlAgilityPack.xml
