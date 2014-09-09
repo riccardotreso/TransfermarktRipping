@@ -7,3 +7,7 @@ c:\progetti\RippingTransfermarkt\RippingTransfermarkt\obj\Debug\RippingTransferm
 c:\progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\HtmlAgilityPack.dll
 c:\progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\HtmlAgilityPack.pdb
 c:\progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\HtmlAgilityPack.xml
+C:\Progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\MongoDB.Bson.dll
+C:\Progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\MongoDB.Driver.dll
+C:\Progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\MongoDB.Bson.xml
+C:\Progetti\RippingTransfermarkt\RippingTransfermarkt\bin\Debug\MongoDB.Driver.xml
