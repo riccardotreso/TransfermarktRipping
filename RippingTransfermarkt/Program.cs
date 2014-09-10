@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
 using MongoDB.Bson;
@@ -32,6 +34,11 @@ namespace RippingTransfermarkt
 
         static void Main(string[] args)
         {
+
+            Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture("it-IT");
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.CreateSpecificCulture("it-IT");
+
+
             var webGet = new HtmlWeb();
             var list = new List<Transfer>();
             int page = 1;
@@ -100,7 +107,9 @@ namespace RippingTransfermarkt
         {
 
             //var client = new MongoClient("mongodb://localhost:27017");
-            var client = new MongoClient("mongodb://transfer:Duplicato2014@kahana.mongohq.com:10074/foootballguru");
+
+            var client = new MongoClient("mongodb://admin:admin@kahana.mongohq.com:10074/foootballguru");
+            //var client = new MongoClient("mongodb://transfer:Duplicato2014@kahana.mongohq.com:10074/foootballguru");
             var server = client.GetServer();
             var database = server.GetDatabase("foootballguru");
             var collection = database.GetCollection<Transfer>("transfer");
